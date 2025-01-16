@@ -1,21 +1,15 @@
 {
   "name": "moviestream",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HPOGFD/movieStream.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/HPOGFD/movieStream/issues"
-  },
-  "homepage": "https://github.com/HPOGFD/movieStream#readme"
+  "description": ""
 }
