@@ -1,4 +1,12 @@
+import { DataTypes, Sequelize, Model, Optional } from 'sequelize';
 
+// Define the attibutes for Movie
+interface MovieAttributes {
+    id: number;
+    title: string;
+    genre: string;
+    rating: number;
+}
 
 export function MovieStream(sequelize: Sequelize): typeof Movie {
     MovieStream.init(
