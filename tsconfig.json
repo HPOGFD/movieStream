@@ -7,7 +7,7 @@
     "module": "ESNext" /* Specify what module code is generated. */,
     "moduleResolution": "Bundler" /* Specify how TypeScript looks up a file from a given module specifier. */,
     "skipLibCheck": true,
-    "rootDir": "src" /* Specify the root folder within your source files. */,
+    "rootDir": "server/src" /* Specify the root folder within your source files. */,
   
     /* Emit */
     "outDir": "dist" /* Specify an output folder for all emitted files. */,
@@ -32,5 +32,5 @@
     "noImplicitOverride": true /* Ensure overriding members in derived classes are marked with an override modifier. */,
     "useUnknownInCatchVariables": true /* Ensure 'unknown' is used for catch clause variables. */
   },
-  "include": ["src"]
+  "include": ["server/src"]
 }
