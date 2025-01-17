@@ -22,7 +22,7 @@ export class Movie extends Model<MovieAttributes, MovieCreationAttributes> imple
 }
 
 export function MovieStream(sequelize: Sequelize): typeof Movie {
-    MovieStream.init(
+    Movie.init(
         {
             id: {
                 type: DataTypes.INTEGER,
@@ -47,7 +47,7 @@ export function MovieStream(sequelize: Sequelize): typeof Movie {
             sequelize,
         }
     );
-    return MovieStream;
+    return Movie;
 }
 
 
