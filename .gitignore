@@ -8,6 +8,8 @@
 
 # Logs
 # Log files from the application, npm, or yarn. Helps to avoid committing debug or error logs.
+node_modules
+
 logs
 *.log
 npm-debug.log*          # npm debug log files
